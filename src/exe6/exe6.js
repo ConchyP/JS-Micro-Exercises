@@ -13,11 +13,11 @@ document.getElementById("button").addEventListener("click", function() {
    
     const num1 = parseFloat(document.getElementById("num1").value);
     const num2 = parseFloat(document.getElementById("num2").value);
-
+    const num3 = parseFloat(document.getElementById("num3").value);
 
    
-    if (isNaN(num1) || isNaN(num2)) {
-        alert("Por favor ingrese dos números válidos.");
+    if (isNaN(num1) || isNaN(num2) || isNaN(num3)) {
+        alert("Por favor ingrese tres números válidos.");
         return;
     }
 
@@ -25,7 +25,9 @@ document.getElementById("button").addEventListener("click", function() {
     if (num2 > mayor) {
         mayor = num2;
     }
+    if (num3 > mayor) {
+        mayor = num3;
+    }
 
     document.getElementById("result").innerText = `El número mayor es ${mayor}.`;
 });
-
