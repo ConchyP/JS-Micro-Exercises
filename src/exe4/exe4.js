@@ -11,7 +11,7 @@ let num2 = document.getElementById('num2');
 let button = document.getElementById('button');
 let textResult = document.getElementById('result');
 
-function button.addEventListener("click", function() {
+button.addEventListener("click", function() {
 
     let num1 = parseFloat(numb1.value);
     let num2 = parseFloat(numb2.value);
