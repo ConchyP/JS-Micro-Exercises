@@ -1,0 +1,19 @@
+{
+  "name": "js-micro-exercises",
+  "version": "1.0.0",
+  "description": "Micro exercises JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConchyP/JS-Micro-Exercises.git"
+  },
+  "author": "Conchy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ConchyP/JS-Micro-Exercises/issues"
+  },
+  "homepage": "https://github.com/ConchyP/JS-Micro-Exercises#readme"
+}
