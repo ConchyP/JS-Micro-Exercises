@@ -15,8 +15,8 @@ function text(num1, num2, result) {
 
 let num1 = 3;
 let num2 = 2;
-let result = add(num1, num2);
-let textResult = text(num1, num2, result);
+const result = add(num1, num2);
+const textResult = text(num1, num2, result);
 
 document.getElementById("operation").innerText = textResult;
 
