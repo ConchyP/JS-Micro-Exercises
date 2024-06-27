@@ -2,11 +2,11 @@
 // Definir en HTML el espacio donde se va a mostrar el mensaje Hello JS
 // Crear el elemnto h1
 
-const app = document.getElementById("app");
-let innerH1 = function(app){
-    app.innerHTML = "<h1>Hello JavaScript</h1>";
+const showText = document.getElementById("showText");
+let innerH1 = function(showText){
+    showText.innerHTML = "<h1>Hello JavaScript</h1>";
 }
-innerH1(app);
+innerH1(showText);
 
 
 

@@ -1,1 +1,1 @@
-# JS-Micro-ejercicios
+# JS Micro exercises
