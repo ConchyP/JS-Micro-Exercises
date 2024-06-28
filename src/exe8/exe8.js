@@ -10,7 +10,7 @@ document.getElementById("button").addEventListener("click", function() {
         }
     }
 
-    const vowelsArray = Array.from(vowels);
+    let vowelsArray = Array.from(vowels);
 
     document.getElementById("result").textContent = `Las vocales en la frase son ${vowelsArray}`;
 });

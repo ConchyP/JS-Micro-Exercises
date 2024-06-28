@@ -1,7 +1,7 @@
 document.getElementById("button").addEventListener("click", function() {
 
-    let number = parseInt(document.getElementById("num1").value);
-    let dividers = [2, 3, 5, 7];
+    const number = parseInt(document.getElementById("num1").value);
+    const dividers = [2, 3, 5, 7];
     let results = [];
 
     for (let divider of dividers) {

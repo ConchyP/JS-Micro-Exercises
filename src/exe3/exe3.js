@@ -8,7 +8,7 @@ function greet() {
 
     const userName = document.getElementById("username").value;
 
-    const textGreet = `¡ Hola ${userName} !`;
+    let textGreet = `¡ Hola ${userName} !`;
 
     document.getElementById("greeting").innerText = textGreet;
 }
