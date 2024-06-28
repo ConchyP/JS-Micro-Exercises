@@ -6,7 +6,7 @@ document.getElementById("button").addEventListener("click", function() {
 
     for (let divider of dividers) {
         if (number % divider === 0) {
-            results.push(`Por ${divider}`);
+            results.push(`Por  ${divider}`);
         }
     }
 
